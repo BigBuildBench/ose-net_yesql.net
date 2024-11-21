@@ -1,0 +1,25 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="YeSql.Net" Version="2.0.0" />
+    <PackageVersion Include="YeSql.Net.Example.QueryReuse" Version="1.0.1" />
+    <PackageVersion Include="CopySqlFilesToOutputDirectory" Version="1.0.0" />
+    <PackageVersion Include="CopyPluginsToPublishDirectory" Version="1.0.0" />
+    <PackageVersion Include="CPlugin.Net" Version="1.2.0" />
+    <PackageVersion Include="CPlugin.Net.Attributes" Version="1.0.0" />
+    <PackageVersion Include="DotEnv.Core" Version="3.1.0" />
+    <PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="8.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+    <PackageVersion Include="Swashbuckle.AspNetCore" Version="6.6.1" />
+    <PackageVersion Include="IsExternalInit" Version="1.0.3" />
+    <PackageVersion Include="Microsoft.AspNetCore.Mvc.Testing" Version="8.0.0" />
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.3.2" />
+    <PackageVersion Include="FluentAssertions" Version="6.10.0" />
+    <PackageVersion Include="NUnit" Version="3.13.3" />
+    <PackageVersion Include="NUnit3TestAdapter" Version="4.3.0" />
+    <PackageVersion Include="NUnit.Analyzers" Version="3.5.0" />
+    <PackageVersion Include="coverlet.msbuild" Version="6.0.0" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <IsPackable>false</IsPackable>
+    <RootNamespace>YeSql.Net.Tests</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content 
+      Include="Loader\Resources\errors\*.sql" 
+      CopyToOutputDirectory="PreserveNewest" 
+      TargetPath="errors\%(Filename)%(Extension)" 
+    />
+
+    <Content
+      Include="Loader\Resources\error\*.sql"
+      CopyToOutputDirectory="PreserveNewest"
+      TargetPath="error\%(Filename)%(Extension)"
+    />
+
+    <Content 
+      Include="Loader\Resources\sql\*.sql" 
+      CopyToOutputDirectory="PreserveNewest" 
+      TargetPath="sql\%(Filename)%(Extension)" 
+    />
+
+    <Content 
+      Include="Loader\Resources\env\*.env" 
+      CopyToOutputDirectory="PreserveNewest" 
+      TargetPath="env\%(Filename)%(Extension)" 
+    />
+    
+    <Content 
+      Include="Loader\Resources\yesql\*.sql" 
+      CopyToOutputDirectory="PreserveNewest" 
+      TargetPath="yesql\%(Filename)%(Extension)" 
+    />
+  </ItemGroup>
+
+</Project>
